@@ -1,7 +1,7 @@
 # Define network path and credentials
 $networkPath = '\\it-server\Software-Install\Office365-New'
-$username = 'berninausa\patchmgr.ca'
-$password = 'gQ7uF@ysS!BY' | ConvertTo-SecureString -AsPlainText -Force
+$username = ''
+$password = '' | ConvertTo-SecureString -AsPlainText -Force
 $credential = New-Object System.Management.Automation.PSCredential($username, $password)
 
 # Define setup command
